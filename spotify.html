@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Web player</title>
+    <link rel="stylesheet" href="spotify.css">
+    <script src="https://kit.fontawesome.com/d6c769d59b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="left_tab">
+        <ul class="left">
+            <div class="common_left logo_font">
+                <div class="logo_icon">
+                    <i class="active fa-brands fa-spotify"></i>
+                    <li class="active"><a href="#">Spotify</a></li>
+                </div>
+            </div>
+            <div class="left_tab_font">
+                <div class="common common_left">
+                    <div class="icon">
+                        <i class="icons fa-solid fa-house"></i>
+                        <li class="active"><a href="#">Home</a></li>
+                    </div>
+                    <div class="icon">
+                        <i class="icons fa-solid fa-magnifying-glass"></i>
+                        <li><a href="#">Search</a></li>
+                    </div>
+                    <div class="icon">
+                        <!-- <i class="icons fa-regular fa-books"></i> -->
+                        <i class="icons fa-solid fa-book"></i>
+                        <li><a href="#">Your Library</a></li>
+                    </div>
+                </div>
+                <div class="common common_left">
+                    <div class="icon">
+                        <i class="icons fa-regular fa-square-plus"></i>
+                        <li><a href="#">Create Playlist</a></li>
+                    </div>
+                    <div class="icon">
+                        <i class="icons fa-solid fa-heart"></i>
+                        <li><a href="#">Liked Songs</a></li>
+                    </div>
+                </div>
+            </div>
+            <div class="common_left small_links">
+                <li><a href="#">Cookies</a></li>
+                <li><a href="#">Privacy</a></li>
+            </div>
+        </ul>
+    </div>
+    
+    <div class="right_tab">
+        <!-- <div class="top_row_nav">
+            <div class="fixed_header">
+                <ul class="top_header_link">
+                    <div class="arrow_tag">
+                        <li><a href="#"><img src="" alt="left_arrow"></a></li>
+                        <li><a href="#"><img src="" alt="right_arrow"></a></li>
+                    </div>
+                    <div class="top_right">
+                        <div class="three_links_header">
+                            <li><a href="#">Premium</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Download</a></li>
+                        </div>
+                        <div class="register">
+                            <li><a href="#">Sign up</a></li>
+                            <li class="register_radius"><a class="login" href="#">Log in</a></li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div> -->
+
+        <div class="top_row_nav">
+            <div class="top_nav_container">
+                <div class="arrow_tag">
+                    <a class="lt" href="#">&lt;</a>
+                    <a class="gt" href="#">&gt;</a>
+                </div>
+                <div class="top_right">
+                    <ul>
+                        <li class="three_links_header"><a href="#">Premium</a></li>
+                        <li class="three_links_header"><a href="#">Support</a></li>
+                        <li class="three_links_header"><a href="#">Download</a></li>
+                        <li class="register"><a href="#">Sign up</a></li>
+                        <li class="register register_radius"><button class="btn" type="button">Log in</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+
+        <div class="body_tab">
+            <div class="flex_container">
+                    <h2><a href="#">Spotify Playlists</a></h2>
+                    <h5><a href="#">SEE ALL</a></h5>
+            </div>
+            <div class="row">
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/sam_smith1.jpeg);"></div>
+                    <h4>Today's Top Hits</h4>
+                    <p>Sam Smith is on top of the Hottest 50!</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/DaBaby.jpeg);"></div>
+                    <h4>RapCaviar</h4>
+                    <p>New music from DaBaby, Moneybagg Yo and YG</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/Billie_Eillish.jpeg);"></div>
+                    <h4>All Out 2010s</h4>
+                    <p>The biggest songs of the 2010s</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/Rock_classics.jpeg);"></div>
+                    <h4>Rock Classics</h4>
+                    <p>Rock legends & epic songs that continue to inspire</p>
+                </div>
+            </div>
+
+
+
+            <div class="flex_container">
+                <h2><a href="#">Uniquely yours</a></h2>
+            </div>
+            <div class="row hide">
+                <div class="column column_jpg">
+                    <img src="/spotify/spotify_jpg/sam_smith1.jpeg" alt="Sam_smith" width="600" height="400">
+                    <h4>Today's Top Hits</h4>
+                    <p>Sam Smith is on top of the Hottest 50!</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <img src="/spotify/spotify_jpg/DaBaby.jpeg" alt="Dababy" width="600" height="400">
+                    <h4>RapCaviar</h4>
+                    <p>New music from DaBaby, Moneybagg Yo and YG</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <img src="/spotify/spotify_jpg/Billie_Eillish.jpeg" alt="Billie_Eillish" width="600" height="400">
+                    <h4>All Out 2010s</h4>
+                    <p>The biggest songs of the 2010s</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <img src="/spotify/spotify_jpg/Rock_classics.jpeg" alt="Rock_classics" width="600" height="400">
+                    <h4>Rock Classics</h4>
+                    <p>Rock legends & epic songs that continue to inspire</p>
+                </div>
+            </div>
+
+
+            <div class="flex_container">
+                <h2><a href="#">Focus</a></h2>
+                <h5><a href="#">SEE ALL</a></h5>
+            </div>
+            <div class="row">
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/peaceful_piano.jpg);"></div>
+                    <h4>Peaceful Piano</h4>
+                    <p>Relax and indulge with beautiful piano pieces</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/Deep_focus.jpg);"></div>
+                    <h4>Deep Focus</h4>
+                    <p>Keep calm and focus with ambient and post-rock music.</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/Instrumental_study.jpg);"></div>
+                    <h4>Instrumental Study</h4>
+                    <p>Focus with soft study music in the background</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/chil_lofi.jpg);"></div>
+                    <h4>chill lofi study beats</h4>
+                    <p>The perfect study beats, twenty four seven.</p>
+                </div>
+            </div>
+
+
+            <div class="flex_container">
+                <h2><a href="#">Mood</a></h2>
+                <h5><a href="#">SEE ALL</a></h5>
+            </div>
+            <div class="row">
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/mood_booster.jpg);"></div>
+                    <h4>Mood Booster</h4>
+                    <p>Get happy with today's dose of feel-good songs!</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/feeling_good.jpg);"></div>
+                    <h4>Feelin' Good</h4>
+                    <p>Feel good with this positively timeless playlist!</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/dark&stormy.jpg);"></div>
+                    <h4>Dark & Stormy</h4>
+                    <p>Beautiful dark, dramatic tracks.</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/Feel_good_piano.jpg);"></div>
+                    <h4>Feel Good Piano</h4>
+                    <p>Happy vibes for an upbeat morning.</p>
+                </div>
+            </div>
+
+
+            <div class="flex_container">
+                <h2><a href="#">Popular new releases</a></h2>
+                <h5><a href="#">SEE ALL</a></h5>
+            </div>
+            <div class="row">
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/Unholy.jpg);"></div>
+                    <h4>Unholy (feat. Kim Petras)</h4>
+                    <p>Sam Smith, Kim Petras</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/star_walkin.jpg);"></div>
+                    <h4>STAR WALKIN'(League ...</h4>
+                    <p>Lil Nas X</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/baby_on_baby2.jpg);"></div>
+                    <h4>Baby On Baby 2</h4>
+                    <p>DaBaby</p>
+                </div>
+
+                <div class="column column_jpg">
+                    <div class="icon_image"><i class="fa-solid fa-circle-play"></i></div>
+                    <div class="gallery_image" style="background-image: url(spotify_jpg/subject_to_change.jpg);"></div>
+                    <h4>SUBJECT TO CHANGE</h4>
+                    <p>Kelsea Ballerini</p>
+                </div>
+            </div>
+
+            <!-- Footer tab -->
+            <footer>
+                <div class="column">
+                    <ul>
+                        <li class="category">Company</li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">For the Record</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <ul>
+                        <li class="category">Communities</li>
+                        <li><a href="#">For Artists</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Vendors</a></li>
+                    </ul>
+                </div>
+
+                <div class="column">
+                    <ul>
+                        <li class="category">Useful links</li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Free Mobile App</a></li>
+                    </ul>
+                </div>
+
+                <div class="column social_icon">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    <div class="fixed_last_tab">
+        <div class="preview">
+            <p><strong>PREVIEW OF SPOTIFY</strong><br>Sign up to get unlimited songs and podcasrs with occasional ads. No card needed.</p>
+        </div>
+        <div class="button_free"><button>Sign up free</button></div>
+    </div>
+</body>
+</html>
