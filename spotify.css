@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.left_tab ul.left {
+    list-style-type: none; /* check for delete */
+    /* position: relative; /* check for delete */
+    background-color: black;
+    width: 20%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+    color: white;
+}
+.logo_icon i {
+    font-size: 40px;
+}
+.icon li,
+.logo_icon li {
+    display: inline-block;
+}
+i.icons {
+    font-size: 20px;
+}
+/*
+i.fa-house {
+    top: 110px;
+    left: 25px;
+    font-size: 20px;
+}
+i.fa-magnifying-glass {
+    left: 25px;
+    font-size: 20px;
+}
+i.fa-books {
+    left: 25px;
+    font-size: 20px;
+} */
+.left li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.common_left {
+    margin: 30px 50px 50px 50px;
+}
+.common_left li, i.icons {
+    opacity: 0.7;
+}
+.common_left li.active {
+    opacity: 1.0;
+}
+.common li:hover:not(.active),
+i.icons:hover{
+    opacity: 1;
+}
+.small_links li {
+    list-style-type: none;
+}
+.small_links {
+    padding-right: 20px;
+    padding-top: 55px;
+}
+.small_links li a {
+    padding-top: 15px;
+    font-size: 10px;
+}
+.small_links li a:hover {
+    text-decoration: underline;
+}
+.left_tab_font li {
+    padding-left: 12px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.logo_font li {
+    font-weight: 700;
+    font-size: 25px;
+}
+.right_tab {
+    width: 80%;
+    margin-left: 20%;
+    overflow: auto;
+}
+
+/* .fixed_header ul {
+    background-color: rgba(0, 0, 0, 1.0);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1v;
+}
+.top_header_link li {
+    float: left;
+}
+ul.top_header_link li a {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+.top_right li a {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.top_right .three_links_header li:first-child {
+    margin-left: 200px;
+}
+.three_links_header li:last-child {
+    padding-right: 20px;
+    border-right: 1px solid whitesmoke;
+}
+
+.register li.register_radius a {
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    padding: 15px 25px;
+}
+.register li:first-child {
+    margin-left: 30px;
+    margin-right: 10px;
+} */
+
+/* Hover effect right top nav*/
+/* .top_right li a:hover:not(.login) {
+    color: rgb(255, 255, 255);
+
+}
+.top_right li:hover {
+    transform: scale(1.04);
+}
+.register li.register_radius:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+    transform: scale(1.05);
+} */
+
+.top_row_nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+.top_right ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.top_right ul li {
+    display: inline-block;
+    margin: 0 8px;
+}
+.top_right {
+    margin: 0 !important; 
+}
+.top_right ul li:nth-child(3) {
+    margin-right: 3em;
+}
+.top_nav_container a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 450;
+}
+.top_nav_container {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.top_right li a:hover:not(.login) {
+    color: rgb(255, 255, 255);
+
+}
+.top_right li:hover {
+    transform: scale(1.04);
+}
+.register li.register_radius:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+    transform: scale(1.05);
+}
+button.btn {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 25px;
+}
+.arrow_tag a {
+    font-size: 25px;
+}
+.arrow_tag a:nth-child(2) {
+    margin-left: 20px;
+}
+
+
+/* For the fixed last tab */
+.fixed_last_tab {
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(to right, rgb(198, 60, 198), rgb(86, 86, 242));
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.button_free button {
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+}
+
+
+
+/*
+.preview {
+    float: left;
+}
+.preview p {
+    display: inline-block;
+    font-size: 14px;
+}
+.preview p:last-child {
+    font-weight: 500;
+}
+.preview p.first_child {
+    padding-bottom: 10px;
+}
+*/
+.body_tab {
+    height: 2500px;
+    margin-top: 60px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+/* CSS for the image_gallery */
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_container a {
+    color: white;
+}
+div.column {
+    float: left;
+    height: auto;
+    width: 24%; /* 223px */
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: black;
+    box-shadow: 8px 10px 30px black;
+}
+div.column_jpg {
+    position: relative;
+}
+.icon_image i {
+    color: rgb(68, 143, 68);
+}
+.icon_image {
+    position: absolute;
+    top: 40%;
+    left: 67%;
+    font-size: 50px;
+    display: none;
+}
+div.column_jpg:hover {
+    background-color: rgb(31, 31, 31);
+}
+.column_jpg:hover .icon_image {
+    display: block;
+}
+div.column p {
+    color: rgb(194, 191, 191);
+    font-size: 15px;
+    line-height: 25px;
+}
+/*
+div.column:first-child{
+    margin-right: 11px;
+}
+div.column:nth-child(2),
+div.column:nth-child(3),
+div.column:nth-child(4) {
+    margin: 0 11px;
+}
+div.column img {
+    width: 100%;
+}
+.row {
+    margin-bottom: 30px;
+} */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gallery_image {
+    border: none;
+    width: auto;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    box-shadow: 3px 4px 15px black;
+}
+.flex_container a {
+    text-decoration: none;
+}
+.flex_container a:hover {
+    text-decoration: underline;
+}
+.hide {
+    visibility: hidden; /* hides the uniquely yours gallery */
+}
+
+/* CSS FOR FOOTER TAB */
+footer {
+    margin-top: 60px;
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer ul li {
+    padding-bottom: 18px;
+}
+li.category {
+    font-size: 16px;
+    font-weight: bold;
+}
+footer li a {
+    color: rgb(188, 183, 183);
+    text-decoration: none;
+    font-size: 14px;
+}
+footer li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+footer.column a {
+    color: white;
+}
+.social_icon a {
+    background-color: rgb(50, 49, 49);
+    padding: 10px;
+    color: white;
+    border-radius: 150px;
+}
